@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28306.52
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SecureDataCleaner", "SecureDataCleaner\SecureDataCleaner.csproj", "{D764C7CE-5B00-4B28-BB9B-C50246A27D5A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{5D4B0D9B-4DEA-4215-A649-6823713309ED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SecureDataCleanerTests", "SecureDataCleanerTest\SecureDataCleanerTests.csproj", "{407D121F-52BE-4164-83BA-A5E0DD4CF584}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D764C7CE-5B00-4B28-BB9B-C50246A27D5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D764C7CE-5B00-4B28-BB9B-C50246A27D5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D764C7CE-5B00-4B28-BB9B-C50246A27D5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D764C7CE-5B00-4B28-BB9B-C50246A27D5A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{407D121F-52BE-4164-83BA-A5E0DD4CF584}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{407D121F-52BE-4164-83BA-A5E0DD4CF584}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{407D121F-52BE-4164-83BA-A5E0DD4CF584}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{407D121F-52BE-4164-83BA-A5E0DD4CF584}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{407D121F-52BE-4164-83BA-A5E0DD4CF584} = {5D4B0D9B-4DEA-4215-A649-6823713309ED}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0B5991AD-AA34-45FF-BF0B-358261A439CB}
+	EndGlobalSection
+EndGlobal
